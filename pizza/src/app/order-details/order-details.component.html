@@ -1,0 +1,26 @@
+
+<Header class="logo">Pizza Galleria
+  <a routerLink="/user"> <p> 🏠</p></a>
+</Header>
+<div class="order">
+<h2>Thank you For Visiting us</h2>
+<h2>Your Order Details</h2>
+
+<body class="bod">
+  <div class="odd" *ngIf="order && order.length > 0">
+    <div class="itm" *ngFor="let item of order">
+      <p>Order ID: {{item.orderid}}</p>
+      <p>Tracking ID: {{item.trackingid}}</p>
+      <p>Total Price: {{item.totalprice}}</p>
+      <p>Order Quantity: {{item.orderquantity}}</p>
+      <p>Order status:{{item.orderstatus}}</p>
+      <p>Order Date: {{item.date}}</p><br>
+    </div>
+  </div>
+
+  <div *ngIf="!order || order.length === 0">
+    <p>You have not placed any order yet. Please navigate via view pizza.</p>
+    <a routerLink="/user"><button id="btnid">View Pizzas</button></a>
+  </div>
+</body>
+</div>

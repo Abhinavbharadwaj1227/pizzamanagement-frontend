@@ -1,0 +1,21 @@
+<header>
+    PIZZA GALLERIA
+   
+   </header>
+<body>
+ 
+<div class="contain">
+
+ 
+    
+    <div class="login-page">
+
+    <form (ngSubmit)="login()">
+        <input type="email" placeholder="Username" id="email" name ="email" [(ngModel)]="email" required>
+        <input type="password" placeholder="Password" id="pass" name="password" [(ngModel)]="password" required>
+        <button class="btn">Log In</button>
+        <a routerLink="/signup"><button class="btn1">Signup</button></a>
+    </form>
+    </div>
+</div>
+</body>

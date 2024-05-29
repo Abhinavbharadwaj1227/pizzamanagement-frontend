@@ -1,0 +1,20 @@
+<header>Pizza Galleria
+  <a routerLink="/cart"><p class="car">Cart</p></a>
+  <a routerLink="/user"><p class="hom"> 🏠</p></a>
+ </header>
+<body>
+<div *ngIf="product" class="product-detail">
+    <img src="{{product.img}}" >
+    <p>Pizza name: {{product.pizzaName}}</p>
+    <p>Price: {{ product.price | currency:'INR' }}</p>
+
+    <p>Ingredients: {{product.ingredients}}</p><br>
+    
+</div>
+<div class="but1"><button class ="but"(click)='addToCart(product.pizzaid)'>Add to Cart</button>
+  
+
+
+</div>
+
+</body>

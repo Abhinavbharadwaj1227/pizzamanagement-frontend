@@ -1,0 +1,186 @@
+
+header{
+  background-color: rgba(225, 32, 32, 0.863);
+  padding-top: 3px;
+  padding-bottom:2px;
+ 
+  font-size: 24px;
+  font-style: italic;
+  font-weight: bold;
+  color:whitesmoke ;
+  display: flex;
+  justify-content:space-between;
+
+  padding-right: 20px;
+  padding-left: 20px;
+
+
+}
+header a{
+  color: whitesmoke;
+}
+
+header a :hover{
+
+
+  color:green;
+ background-color:wheat;
+ text-decoration: none;
+ transform: scale(1.1);
+}
+
+.cart-container {
+    /* max-width: 800px; */
+  
+    margin-left: 0 ;
+    margin-right: 0;
+    margin-top: 0;
+    margin-bottom: 0;
+    background-image: url('/assets/background65.jpg');
+    padding-top: 10px;
+    padding-bottom: 30px;
+    color: antiquewhite;
+
+    
+  
+  }
+  
+  
+  .cart-item {
+  
+    display: flex;
+    justify-content: center;
+    margin-top: 5rem;
+   
+
+  
+  }
+  .empty-cart-message{
+
+    display: flex;
+    justify-content: center;
+  }
+  .cart-item img {
+
+  
+    width: 20rem;
+  
+    height: 20rem;
+  
+    margin-right: 20rem;
+    margin-left: 20rem;
+
+    border: 20px;
+    border-radius: 10px;
+
+    box-shadow: 30px ;
+    
+  
+  }
+  .cart-item img:hover{
+    transform:scale(1.1);
+    box-shadow: 10px 5px 10px red;
+    cursor: pointer;
+  }
+  
+  .cart-item img{
+    transition: transform 0.5s ease;
+  }
+  .item-details {
+  
+    flex-grow: 1;
+  
+  }
+  
+  .empty-cart-message {
+  
+    text-align: center;
+  
+    margin-top: 20px;
+  
+    font-style: italic;
+  
+
+  }
+
+  .but1{
+   background-color: white;
+   color: black;
+   transition: transform 0.5s ease;
+  }
+
+
+  .but1:hover{
+
+    background-color: red;
+    
+    transform: scale(1.1);
+    
+    
+
+  }
+  .but2{
+    background-color: white;
+    margin-left: 600px;
+    color: black;
+    padding-left: 50px;
+    padding-right: 50px;
+    margin-top: 50px;
+    margin-right: 30px;
+    transition: transform 0.5s ease;
+    
+  }
+  .but2:hover{
+    transform: scale(1.1);
+    color: black;
+    background-color: green;
+    cursor: pointer;
+    
+  }
+  .but6{
+    background-color:white;
+    margin-left: 6px;
+    color: black;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-top: 50px;
+    margin-right: 10px;
+    margin-bottom: 200px;
+    transition: transform 0.5s ease;
+    }
+    .but6:hover{
+      transform:scale(1.1);
+      cursor: pointer;
+      background-color: green;
+    }
+
+  .but5{
+    background-color:white;
+    margin-left: 6px;
+    color: black;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-top: 50px;
+    margin-right: 10px;
+    margin-bottom:200px;
+    transition: transform 0.5s ease;
+  }
+  .but5:hover{
+    background-color: red;
+    transform: scale(1.1);
+    cursor: pointer;
+  }
+  .div1{
+    background-color: black;
+    padding-right: 50px; 
+  }
+  .empty-cart-message{
+    background-color: black; 
+    font-size: 50px;
+    margin-bottom: 250px;
+    color:antiquewhite;
+    text-shadow: 0 0 10px #ff0000, 0 0 20px #ff0000, 0 0 30px #ff0000, 0 0 40px #ff0000;
+    
+  }
+
+ 

@@ -1,0 +1,35 @@
+
+<header>Pizza Galleria
+ <a routerLink="/user"><p class="hom"> 🏠</p></a>
+</header>
+
+<div class="cart-container">
+
+    
+    <div *ngIf="cartItems.length === 0" class="empty-cart-message">
+      Your cart is empty.<br><br> Happiness is a slice of pizza.
+    </div>
+  
+    <div *ngFor="let item of cartItems" class="cart-item">
+      <img id= "img" src="{{item.pizza.img}}" alt="Product Image">
+      <div class="item-details">
+        <h3>Pizza Name: {{ item.pizza.pizzaName }}</h3>
+        <p>Price: Rs. {{ item.price }}</p>
+        <p>Quantity: {{ item.quantity }}</p>
+        <button class="but6" (click)="incrementQuantity(item)">+</button>
+        <button class="but5" (click)="decrementQuantity(item)">-</button>
+        <button class ="but1" (click)="removeFromCart(item)">Remove</button>
+        
+      </div>
+    
+    </div>
+    <div *ngIf="cartItems.length >= 1" class="div1">
+      <button class="but2"(click)='addToOrders()'>Place Order</button>
+    </div>
+    
+  
+  </div>
+
+
+
+  

@@ -1,0 +1,26 @@
+<header>Pizza Galleria
+
+  <a id="add"routerLink="/addproducts">AddNewProduct</a>
+  <a id="log"routerLink="/login">Logout</a>
+</header>
+<div class="container">
+
+    <div class="row" *ngFor="let product of products">
+      <div>
+        <img class="img1"[src]="product.img">
+        <div>
+          <label>Pizza Name:</label>
+          <input [(ngModel)]="product.pizzaName">
+          <label>Price:</label>
+          <input [(ngModel)]="product.price">
+          <label>Quantity:</label>
+          <input [(ngModel)]="product.quantity">
+          <label>Ingredients:</label>
+          <input [(ngModel)]="product.ingredients">
+          <button class="but1"(click)="updateProduct(product)">Update</button>
+          <button class="but2"(click)="deleteProduct(product.pizzaid)">Delete</button>
+        </div>
+      </div>
+    </div>
+  </div>
+  

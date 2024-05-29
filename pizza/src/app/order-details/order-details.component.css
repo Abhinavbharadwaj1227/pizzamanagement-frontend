@@ -1,0 +1,87 @@
+/* Style for the body */
+.order{
+  background-color:#28dacb;
+  padding-top: 50px;
+ 
+}
+.bod {
+  font-family: Arial, sans-serif;
+  padding: 20px;
+  display: flex;
+  justify-content: center; /* Use Grid for layout */
+  grid-template-columns: repeat(2, 1fr); 
+  gap: 10px; /* Minimal gap between boxes */
+  margin-right:300px;
+  margin-left: 300px;
+ 
+  background-color:#05b7a8;
+  font-weight: bold;
+
+
+}
+
+/* Style for each order box */
+.itm {
+  border: 5px solid #000; /* Black border */
+  /* padding: 50px;  */
+  margin-bottom: 30px; /* Minimal space between boxes */
+  width: 300px;
+  padding-left: 20px;
+  padding-bottom: 20px;
+  padding-top: 50px;
+}
+.itm{
+  transition: transfrom 0.5s ease;
+}
+.itm:hover{
+  transform:scale(1.1) ;
+  cursor: pointer;
+  color:black;
+  background-image: url("/assets/whitewoodbackground.jpg");
+  
+}
+
+/* Style for each paragraph in the order box */
+.itm p {
+  margin-bottom: 10px; /* Space between lines */
+  width: 300px;
+}
+
+/* Media query for responsive design */
+@media (max-width: 600px) {
+  .bod {
+    grid-template-columns: 1fr; /* One column on smaller screens */
+  }
+}
+
+h2{
+  display: flex;
+  justify-content: center;
+  font-weight: bold;
+  font-style: italic;
+  color: #fff;
+  text-shadow: 0 0 10px black, 0 0 20px #1f1818, 0 0 30px #f37b7b, 0 0 40px #0c0808;
+  
+  
+}
+.logo{
+  padding-top: 10px;
+  font-size:20px;
+  display: flex;
+  justify-content: space-between;
+  padding-left: 20px;
+  padding-right: 20px;
+  background-color: rgb(188, 9, 9);
+  color: antiquewhite;
+  font-style: italic;
+  font-weight: bold;
+
+}
+#btnid{
+  margin-left: 200px;
+  color:#000;
+  background-color: white;
+}
+#btnid:hover{
+  color: #28dacb;
+}

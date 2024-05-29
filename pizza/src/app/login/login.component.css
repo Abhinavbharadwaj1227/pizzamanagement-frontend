@@ -1,0 +1,136 @@
+
+header{
+  padding: 1%;
+  margin: 0rem;
+  display:flex;
+  justify-content: left;
+  color:rgb(123, 104, 98);
+  font-size: 30px;
+  font-weight: bold;
+  font-style: italic;
+  background-color:black
+
+
+}
+.container3 {
+    display: flex;
+    justify-content: left;
+    gap: 70%;
+
+}
+
+
+
+a.logo{
+    font-family:'Arial Narrow Bold' ;
+    padding: 1em;
+    display: flex;
+    justify-content: left;
+}
+
+
+body {
+    background-image: url('/assets/background44.jpg'); 
+    background-size: cover; 
+    background-position: center; 
+    background-repeat: no-repeat; 
+    height: 88vh; 
+    margin: 0; 
+    display: flex; 
+    justify-content: center; 
+    align-items: center; 
+    
+  }
+
+
+  
+
+form {
+  background-image: url('/assets/background44.jpg');
+    background-color:white;
+    width: 500px; 
+    height: 300px;
+    /* Adjust width as needed */
+  
+    margin: 0 auto; /* Center the form horizontally */
+    position :absolute;
+    /* top:50%;
+    left:50%; */
+    transform:translate(-50%,-50%);
+    border-radius: 3%;
+    opacity: 0.8;
+   
+    
+  
+  }
+ 
+  
+  input[type="text"],
+  
+  input[type="password"] {
+  
+    width: 100%;
+  
+    padding: 10px 10px 10px 10px;
+  
+    margin-bottom: 15px;
+    border: none;
+  
+    
+  
+    border-radius: 5px;
+  
+    box-sizing: border-box; 
+  }
+  #email{
+    margin-top: 5rem;
+    width: 80%;
+    margin-left: 4rem;
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+  #pass{
+    margin-top: 2rem;
+    width: 80%;
+    margin-left: 4rem;
+  }
+
+  .btn{
+    margin:0 auto;
+    margin-left: 204px;
+    background-color:green;
+    color: black;
+    font-size: 13px;
+    transition: transform o.5s ease;
+
+  }
+  .btn:hover{
+    background-color: whitesmoke;
+    transform: scale(1.1);
+
+  }
+  
+
+  
+  
+  .contain{
+    height: fit-content;
+  }
+  .btn1{
+    margin-top:10px ;
+    margin-left: 204px;
+    background-color:green;
+    border: 0cap;
+    border-radius: 0%;
+    padding: 1px;
+    color: black;
+    font-size: 19px;
+    transition: transform o.5s ease;
+
+  }
+
+  .btn1:hover{
+    background-color: white;
+    transform: scaleX(1.1);
+
+  }

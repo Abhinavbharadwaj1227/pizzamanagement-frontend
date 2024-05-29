@@ -1,0 +1,161 @@
+body {
+
+    font-family: Arial, sans-serif; /* Use a common font family for better compatibility */
+
+
+
+
+    background-color: rgb(9, 9, 9);
+    margin: 0%;
+    padding: 0%;
+    margin-left: 0%;
+   width: 100%;
+
+}
+
+header {
+    background-color:rgba(225, 32, 32, 0.863);
+    /* padding-left: 10px; */
+    /* padding-right: 10px; */
+    padding-top: 10px;
+    padding-bottom: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 0%;
+    margin-left: 0%;
+    margin-right: 0%;
+    font-size: 20px;
+    width: 100%;
+    margin-bottom: 1rem;
+    box-shadow:black;
+}
+
+.container {
+
+    display: flex;
+    justify-content: left;
+
+    /* justify-content: space-between; Align items to the left and right edges */
+
+    align-items: center; /* Center items vertically */
+
+
+
+    /* padding:10px 20px; */
+    margin: 0%;
+    
+
+}
+
+.left h1 {
+
+    flex:1; 
+    color:  #ccc;;
+    font-size: larger;
+    font-weight: bold;
+  
+    font-style: italic;
+   
+
+}
+.right{
+    margin-left:auto;
+}
+.left h1{
+    margin: 0;
+}
+
+.right nav ul {
+
+    list-style-type: none; 
+
+    padding: 0; 
+    margin: 0; 
+
+}
+
+.right nav ul li {
+
+    display: inline; 
+
+    margin-left: 20px;
+}
+
+.right nav ul li:first-child {
+
+    margin-left: 0; 
+
+}
+
+
+
+#ord{
+    transition: transform 0.5s ease;
+    font-weight: bold;
+    color: antiquewhite;
+    font-style: italic;
+    text-decoration: none;
+
+}
+#ord:hover{
+    transform: scale(1.1);
+    color:rgb(243, 220, 90);
+   
+    
+}
+#car{
+    transition: transform 0.5s ease;
+    font-weight: bold;
+    color: antiquewhite;font-style: italic;
+    text-decoration: none;
+}
+#car:hover{
+   
+        transform: scale(1.1);
+        color:rgb(243, 220, 90);
+}
+#pro{
+    
+    font-weight: bold;
+    color: antiquewhite;font-style: italic;
+    text-decoration: none;
+}
+#pro:hover{
+    
+    color:rgb(243, 220, 90);
+}
+
+
+
+#log{
+    
+    font-weight: bold;
+    color: antiquewhite;font-style: italic;
+    cursor: pointer;
+  
+    transition: transform 0.5s ease;
+    text-decoration: none;
+    
+}
+#log:hover{
+    transform: scale(1.1);
+    color:rgb(243, 220, 90);
+    
+}
+
+#about{
+    font-style: italic;
+    color: antiquewhite;
+    font-weight: bold;
+    transition: transform 0.5s ease;
+}
+#about:hover{
+    transform: scale(1.1);
+    color:rgb(243, 220, 90);
+    text-decoration: none;
+}
+
+
+
+

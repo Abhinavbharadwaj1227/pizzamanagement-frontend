@@ -1,0 +1,60 @@
+body{
+    background-image: url('/assets/background52.jpg'); /* Replace 'path/to/your/image.jpg' with the path to your image */
+    background-size: cover; 
+    background-position: center; /* Center the background image */
+    background-repeat: no-repeat; /* Do not repeat the background image */
+    height: 89vh; /* Set the height to the full viewport height */
+    margin: 0; 
+    display: flex; 
+    justify-content: center; 
+    align-items: center; 
+    
+  }
+header {
+    background-color:black;
+    padding: 10px 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 30px;
+    color:rgb(123, 104, 98);
+    padding-left: 20px;
+    padding-right: 40px;
+}
+
+.logo {
+    margin: 0;
+    font-weight: bold;
+    font-style: italic;
+    color:#ccc ;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+nav ul li {
+    margin-left: 20px;
+}
+
+nav ul li:first-child {
+    margin-left: 0;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #ccc;
+    font-weight: bold;
+    font-style: italic;
+}
+
+nav ul li a:hover{
+    color:antiquewhite;
+    text-decoration: dashed;
+}
+.contain1{
+    height: fit-content;
+}

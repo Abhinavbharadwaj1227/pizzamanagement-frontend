@@ -1,0 +1,103 @@
+*{
+    margin: 0%;
+}
+
+header{
+    background-color: rgba(225, 32, 32, 0.863);
+    padding-top: 8px;
+    padding-bottom:8px;
+   
+    font-size: 24px;
+    font-style: italic;
+    font-weight: bold;
+    color:whitesmoke ;
+    display: flex;
+    justify-content:space-between;
+  
+    padding-right: 20px;
+    padding-left: 20px;
+  
+  
+  }
+  header a{
+    color: whitesmoke;
+    
+  }
+  
+  header a :hover{
+  
+  
+    color:gold;
+   
+   text-decoration:none;
+   
+  }
+.logo p {
+    display: flex;
+    justify-content: flex-end;
+    padding-bottom: 10px;
+    margin-bottom: 1rem;
+    margin-right: 1rem;
+
+
+}
+.logo{
+    padding: 5px;
+    display: flex;
+    justify-content: space-around;
+    gap: 80%;
+    padding: 1%;
+    padding-top: 25px;
+    font-weight: bold;
+    font-size: 25px;
+}
+body{
+    /* background-size: cover ; */
+   /* background-image: url('/assets/background65.jpg'); */
+    display: flex;
+    justify-content: center;
+    padding-top: 5rem;
+    height: 540px;
+    /* padding-left: 500px; */
+    background-color: black;
+    
+   
+}
+img{
+    border-radius: 3rem;
+    flex: 1 0;
+    object-fit: cover;
+    height: 30rem;
+    margin: 1rem;
+    transition: transform 0.5s ease;
+
+ }
+ img:hover{
+  transform: scale(1.05);
+    box-shadow: 10px 5px 10px red;
+
+}
+ .but1  {
+    
+    justify-content:space-between;
+    color: green;
+    padding-top: 400px;
+  
+  
+
+   
+   
+ }
+ .but:hover{
+    
+    color: green;
+    transform: scale(1.1);
+ }
+ .product-detail{
+
+    color:white;
+
+ }
+.car{
+    margin-left: 800px;
+}

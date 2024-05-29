@@ -1,0 +1,78 @@
+*{
+    color: aliceblue;
+
+}
+.mainabhinav{
+    width: 100vw;
+    height: 100%;
+    display: flex;
+    flex-wrap: wrap;
+
+}
+.product-card , .abhinav, .abhinav2 {
+    flex: 1;
+    flex-basis: 25%;
+}
+body{
+    margin-left:0 !important;
+    padding-left: 0% !important;
+
+   
+    background-image: url('/assets/background65.jpg');
+
+    /* background-size: cover; */
+
+ 
+    display: flex;
+    justify-content:flex-start;
+    width: 1200px;
+
+    
+
+}
+.abhinav .abhinav4 {
+    padding-top: 50px;
+}
+
+.abhinav{
+    width: 80%;
+    
+    padding-top: 10px;
+    /* margin-top: 2rem; */
+}
+.abhinav1{
+  width:3.3%;
+  padding: 20px;
+}
+.abhinav2{
+  width:80%;
+  height: fit-content;
+}
+.abhinav2 img {
+max-width: 100%;
+height: auto;
+}
+
+
+
+.product-card{
+    display: flex;
+    flex-direction: column;
+    /* align-items: center; */
+    /* text-align: center; */
+    padding: 10px;
+    
+    margin-bottom: 10px;
+}
+
+    
+img:hover{
+  transform: scale(1.05);
+    box-shadow: 10px 5px 10px red;
+}
+img{
+    transition: transform 0.5s ease;
+}
+#b{
+    color: red;
+}

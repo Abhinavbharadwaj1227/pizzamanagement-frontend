@@ -1,0 +1,121 @@
+header{
+  padding: 1%;
+  margin: 0rem;
+  display:flex;
+  justify-content: left;
+  color:rgb(123, 104, 98);
+  font-size: 30px;
+  font-weight: bold;
+  font-style: italic;
+  background-color:black
+
+
+}
+body {
+  background-image: url('/assets/background44.jpg'); /* Replace 'path/to/your/image.jpg' with the path to your image */
+  background-size: cover; 
+  background-position: center; /* Center the background image */
+  background-repeat: no-repeat; /* Do not repeat the background image */
+  height: 90vh; /* Set the height to the full viewport height */
+  margin: 0; 
+  display: flex; 
+  justify-content: center; 
+  align-items: center; 
+  
+}
+
+form {
+    background-image: url('/assets/background44.jpg');
+
+    width: 500px; /* Adjust width as needed */
+    height: 450px;
+  
+    margin: 0 auto; /* Center the form horizontally */
+  
+    position: absolute;
+  
+    top: 50%;
+  
+    left: 50%;
+  
+    transform: translate(-50%, -50%);
+    border: 10px;
+    border-color: antiquewhite;
+    opacity: 0.8;
+    
+  
+  }
+  #paas{
+    margin-top: 2rem;
+    width: 80%;
+    margin-left: 4rem;
+  }
+  #nam{
+    margin-top: 4rem;
+    width: 80%;
+    margin-left: 4rem;
+  }
+  #img{
+    margin-top: 2rem;
+    width: 80%;
+    margin-left: 4rem;
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+  #cit{
+    margin-top: 2rem;
+    width: 80%;
+    margin-left: 4rem;
+  }
+  #sig{
+    margin-top: 2rem;
+    width: 80%;
+    margin-left: 4rem;
+    margin-bottom: 2rem;
+  }
+  
+  input[type="text"],
+  
+  input[type="password"] {
+  
+    width: 100%;
+  
+    padding: 10px;
+  
+    margin-bottom: 15px;
+  
+    border: 1px solid #ccc;
+  
+    border-radius: 5px;
+  
+    box-sizing: border-box; /* Ensure padding and border are included in the element's total width and height */
+  
+  }
+  
+  button[type="submit"] {
+  
+    width: 100%;
+  
+    padding: 10px;
+  
+    background-color:gray; /* Adjust color to fit your design */
+  
+    color: #fff;
+  
+    border: none;
+  
+    border-radius: 5px;
+  
+    cursor: pointer;
+  
+  }
+  
+  button[type="submit"]:hover {
+  
+    background-color:green; /* Adjust hover color */
+  
+  }
+  
+  
+  
+  

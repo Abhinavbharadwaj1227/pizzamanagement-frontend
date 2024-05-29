@@ -1,0 +1,22 @@
+<header>
+    PIZZA GALLERIA
+    <a routerLink="/login">Logout</a>
+   </header>
+  
+  <body>
+    <div class container3>
+      <div class="addproducts-page">
+        <form (ngSubmit)="postproducts()">
+         <input type="text" placeholder="Pizza name" id="nam" name="pizzaName" [(ngModel)]="pizzaName" required>
+         <input type="text" placeholder="Ingredients" id="ing" name="ingredients" [(ngModel)]="ingredients" required>
+         <input type="number" placeholder="Price" id="pri" name="price" [(ngModel)]="price" required>
+         <input type="number" placeholder="Quantity" id="quan" name="quantity" [(ngModel)]="quantity" required>
+         <input type="text" placeholder="ImageUrl" id="quan" name="img" [(ngModel)]="img" required>
+       
+         <button id="sig" type="submit">Add Product</button>
+         
+    </form>
+    
+      </div>
+    </div>
+  </body>

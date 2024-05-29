@@ -1,0 +1,50 @@
+
+<body>
+    <header>
+
+        <div class="container">
+
+            <div class="left">
+
+                <h1>Pizza Galleria ({{'Hello Welcome '+customer.customername}})</h1>
+
+            </div>
+
+            <div class="right">
+
+                <nav>
+
+                    <ul>
+
+                        <li id="pro1"><a id="pro" routerLink="/profile">Edit Profile</a></li>
+                        <li id="car1"><a id="car" routerLink="/cart">Cart</a></li>
+
+                        <li id="about1"><a id="about" routerLink="/aboutus">About us</a></li>
+
+                        <li id="ord1"><a id="ord" routerLink="/orders">Orders</a></li>
+
+                        <li id="log1"><a id ="log" (click)="onLogout()">Logout</a></li>
+
+                    </ul>
+
+                </nav>
+
+            </div>
+
+        </div>
+
+    </header>
+
+   
+       
+    <div class="container">
+        <app-product  ></app-product>
+        
+    </div>
+
+</body>
+    
+   
+
+
+  

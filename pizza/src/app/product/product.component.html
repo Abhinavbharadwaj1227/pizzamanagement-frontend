@@ -1,0 +1,28 @@
+
+<body>
+<div class="container">
+    <div class="mainabhinav">
+        
+        <div class="row" *ngFor="let obj of product;let i=index" style="margin:5px" class="product-card" >
+        
+        
+            <div class="abhinav1"> </div>
+            <div class="abhinav2"><br>
+                <a [routerLink]="['/product',obj.pizzaid]" ><img src="{{obj.img}}"></a></div>
+            
+            <div class="abhinav" > 
+                 
+                <div class="abhinav4">
+                <span >Pizzaname: {{obj.pizzaName}}</span><br>
+                <span>Price: {{ obj.price | currency:'INR':'symbol':'1.0-0' }}</span><br>
+                <span id="b" *ngIf="obj.quantity===0 ">out of stock</span>
+                <span  *ngIf="obj.quantity>0">Quantity:  {{obj.quantity}}</span><br>
+                <span>Ingredients: {{obj.ingredients}}</span><br>
+            </div>
+            </div>
+           
+        </div>
+        
+    </div>
+</div>
+</body>
